@@ -70,7 +70,7 @@ msgstr "Otoczenie"
 
 #. MSG_CONFIRM_CARRIAGE_AT_THE_TOP c=20 r=3
 #: ../../Firmware/ultralcd.cpp:2826
-msgid "Are left and right Z~carriages all up?"
+msgid "Are left and right Z-carriages all up?"
 msgstr "Obydwa konce osi sa na szczycie?"
 
 #. MSG_SOUND_BLIND c=7
@@ -2567,6 +2567,11 @@ msgstr "Załaduj nowy filament lub wyładuj poprzedni."
 #: ../../Firmware/mmu2_reporting.cpp:426
 msgid "Sensitivity"
 msgstr "Wrażliwość"
+
+#. MSG_MBL_FAILED_Z_CAL c=20 r=4
+#: ../../Firmware/Marlin_main.cpp:2976
+msgid "Mesh bed leveling failed. Please run Z calibration."
+msgstr "Poziomowanie stołu nieudane. Proszę uruchomić kalibrację Z."
 
 #~ msgid "Remove old filament and press the knob to start loading new filament."
 #~ msgstr "Wyciagnij poprzedni filament i nacisnij pokretlo aby zaladowac nowy."

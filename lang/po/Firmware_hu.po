@@ -70,7 +70,7 @@ msgstr "Kornyezet"
 
 #. MSG_CONFIRM_CARRIAGE_AT_THE_TOP c=20 r=3
 #: ../../Firmware/ultralcd.cpp:2826
-msgid "Are left and right Z~carriages all up?"
+msgid "Are left and right Z-carriages all up?"
 msgstr "A Z tengely a felso vegponton van?"
 
 #. MSG_SOUND_BLIND c=7
@@ -2571,6 +2571,11 @@ msgstr ""
 #: ../../Firmware/mmu2_reporting.cpp:426
 msgid "Sensitivity"
 msgstr "Érzékenység"
+
+#. MSG_MBL_FAILED_Z_CAL c=20 r=4
+#: ../../Firmware/Marlin_main.cpp:2976
+msgid "Mesh bed leveling failed. Please run Z calibration."
+msgstr "Sikertelen asztal szintezés. Kérjük, futtasd a Z kalibrálást."
 
 #~ msgid "Remove old filament and press the knob to start loading new filament."
 #~ msgstr "Vedd ki a regi fil., majd nyomd meg a gombot az uj fil. betoltesehez."

@@ -70,8 +70,8 @@ msgstr "Ambijent"
 
 #. MSG_CONFIRM_CARRIAGE_AT_THE_TOP c=20 r=3
 #: ../../Firmware/ultralcd.cpp:2826
-msgid "Are left and right Z~carriages all up?"
-msgstr "Jesu lijevi i desni Z~nosaci podignuti?"
+msgid "Are left and right Z-carriages all up?"
+msgstr "Jesu lijevi i desni Z-nosaci podignuti?"
 
 #. MSG_SOUND_BLIND c=7
 #: ../../Firmware/messages.cpp:155 ../../Firmware/ultralcd.cpp:4191
@@ -877,7 +877,7 @@ msgid ""
 "ready to print."
 msgstr ""
 "Bok, ja sam vas Original Prusa i3 printer. Vodit cu vas kroz kratak proces "
-"postavljanja, u kojem ce se kalibrirati Z~os. Tada cete biti spremni za "
+"postavljanja, u kojem ce se kalibrirati Z-os. Tada cete biti spremni za "
 "printanje."
 
 #. MSG_WIZARD_WELCOME c=20 r=7
@@ -2566,6 +2566,11 @@ msgstr "Promjena filamenta M600. Stavite novu nit ili izbacite staru."
 #: ../../Firmware/mmu2_reporting.cpp:426
 msgid "Sensitivity"
 msgstr "Osjetljivost"
+
+#. MSG_MBL_FAILED_Z_CAL c=20 r=4
+#: ../../Firmware/Marlin_main.cpp:2976
+msgid "Mesh bed leveling failed. Please run Z calibration."
+msgstr "Niveliranje podloge nije uspijelo. Pokrenite Z kalibraciju."
 
 #~ msgid "Remove old filament and press the knob to start loading new filament."
 #~ msgstr "Uklonite stari fil. i pritisnite gumb za pocetak stavljanja novog."

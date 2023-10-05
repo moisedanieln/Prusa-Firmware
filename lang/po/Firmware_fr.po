@@ -70,8 +70,8 @@ msgstr "Ambiant"
 
 #. MSG_CONFIRM_CARRIAGE_AT_THE_TOP c=20 r=3
 #: ../../Firmware/ultralcd.cpp:2826
-msgid "Are left and right Z~carriages all up?"
-msgstr "Z~carriages gauche + droite tout en haut?"
+msgid "Are left and right Z-carriages all up?"
+msgstr "Z-carriages gauche + droite tout en haut?"
 
 #. MSG_SOUND_BLIND c=7
 #: ../../Firmware/messages.cpp:155 ../../Firmware/ultralcd.cpp:4191
@@ -2588,6 +2588,11 @@ msgstr ""
 #: ../../Firmware/mmu2_reporting.cpp:426
 msgid "Sensitivity"
 msgstr "Sensibilité"
+
+#. MSG_MBL_FAILED_Z_CAL c=20 r=4
+#: ../../Firmware/Marlin_main.cpp:2976
+msgid "Mesh bed leveling failed. Please run Z calibration."
+msgstr ""
 
 #~ msgid "Remove old filament and press the knob to start loading new filament."
 #~ msgstr ""

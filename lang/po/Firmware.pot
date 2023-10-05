@@ -61,7 +61,7 @@ msgstr ""
 
 #. MSG_CONFIRM_CARRIAGE_AT_THE_TOP c=20 r=3
 #: ../../Firmware/ultralcd.cpp:2826
-msgid "Are left and right Z~carriages all up?"
+msgid "Are left and right Z-carriages all up?"
 msgstr ""
 
 #. MSG_SOUND_BLIND c=7
@@ -1207,6 +1207,11 @@ msgstr ""
 #: ../../Firmware/messages.cpp:157 ../../Firmware/ultralcd.cpp:4482
 #: ../../Firmware/ultralcd.cpp:4583
 msgid "Mesh Bed Leveling"
+msgstr ""
+
+#. MSG_MBL_FAILED_Z_CAL c=20 r=4
+#: ../../Firmware/Marlin_main.cpp:2976
+msgid "Mesh bed leveling failed. Please run Z calibration."
 msgstr ""
 
 #. MSG_MODE c=6

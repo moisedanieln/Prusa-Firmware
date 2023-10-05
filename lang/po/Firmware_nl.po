@@ -70,7 +70,7 @@ msgstr "Kamertemp."
 
 #. MSG_CONFIRM_CARRIAGE_AT_THE_TOP c=20 r=3
 #: ../../Firmware/ultralcd.cpp:2826
-msgid "Are left and right Z~carriages all up?"
+msgid "Are left and right Z-carriages all up?"
 msgstr "Zijn beide Z wagen heelemaal boven?"
 
 #. MSG_SOUND_BLIND c=7
@@ -368,7 +368,7 @@ msgstr "Afkoelen"
 #. MSG_COPY_SEL_LANG c=20 r=3
 #: ../../Firmware/ultralcd.cpp:3447
 msgid "Copy selected language?"
-msgstr "Geselecteerde taal kopieren?"
+msgstr "Geselecteerde taal kopiëren?"
 
 #. MSG_CRASH c=7
 #: ../../Firmware/messages.cpp:26 ../../Firmware/ultralcd.cpp:1208
@@ -2574,6 +2574,11 @@ msgstr "M600-filamentwissel. Laad een nieuw filament of werp het oude uit."
 #: ../../Firmware/mmu2_reporting.cpp:426
 msgid "Sensitivity"
 msgstr "Sensitiviteit"
+
+#. MSG_MBL_FAILED_Z_CAL c=20 r=4
+#: ../../Firmware/Marlin_main.cpp:2976
+msgid "Mesh bed leveling failed. Please run Z calibration."
+msgstr "Bed leveling mislukt. Voer de Z-kalibratie uit."
 
 #~ msgid "Remove old filament and press the knob to start loading new filament."
 #~ msgstr ""
